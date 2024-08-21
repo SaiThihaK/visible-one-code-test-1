@@ -1,4 +1,5 @@
 import { FC } from "react";
+import HappeningSection from "./happening-section";
 import styles from "./home.module.css";
 import LandingSection from "./landing-section";
 import NewsSection from "./news-section";
@@ -16,7 +17,10 @@ const HomeContainer: FC = () => {
         </div>
       </div>
       <div className={styles.bodyWrapper}>
-        <TrendingSection />
+        <div>
+          <TrendingSection />
+          <HappeningSection />
+        </div>
       </div>
     </div>
   );

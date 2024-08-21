@@ -1,0 +1,105 @@
+.container{
+    width: 100%;
+    background-color: #a6aeb6;
+    color: #c2cad1;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    align-items:flex-start;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.wrapper > .title{
+    color: white;
+    font-weight: 600;
+   
+}
+
+.routeGroup{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.routelink{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.routelink > span{
+    cursor: pointer; 
+}
+
+.routelink > span:hover{
+    color:white
+}
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  background-color:transparent; /* Adjust the background color to match your design */
+  border-radius: 5px;
+  padding: 3px;
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  border: 2px solid #c2cad1;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color:transparent;
+  color: #c2cad1;
+  font-size: 16px;
+}
+
+.input::placeholder {
+  color: #b3b3b3;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.button svg {
+  color: #b3b3b3; /* Adjust the color to match your design */
+}
+
+.button:hover svg {
+  color: #666; /* Optional: Change color on hover */
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+
+@media (max-width: 768px) {
+.wrapper{
+    flex-direction: column;
+    gap: 40px;
+}
+}
