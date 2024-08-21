@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    height: 100dvh;
+    background-image: url("/image/landing.jpg");
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: start;
+    color: #fbfafe;
+    gap: 20px;
+}
+
+
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.description span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.separator{
+    width: 100%;
+    height: 5px;
+    background-color: #fbfafe;
+}
+
+.btn{
+    width: 150px;
+    padding:10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #fc6981;
+}

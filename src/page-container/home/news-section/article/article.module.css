@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.category{
+    color:#fc6981;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.description{
+    color: #b8babc;
+}
+
+.dateWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #b8babc;
+    font-size: 14px;
+}

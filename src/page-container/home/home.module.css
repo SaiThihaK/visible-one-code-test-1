@@ -1,0 +1,26 @@
+.landingWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.landing {
+    flex-basis: 66.67%; 
+    flex-grow: 1; 
+}
+
+.news {
+    flex-basis: 33.33%; 
+    flex-grow: 1; 
+}
+
+@media (max-width: 768px) {
+    .landingWrapper {
+        flex-direction: column;
+    }
+
+    .landing,
+    .news {
+        flex-basis: auto;
+        width: 100%; /* Make each section take full width on mobile */
+    }
+}
