@@ -15,7 +15,9 @@ const HomeContainer: FC = () => {
           <NewsSection />
         </div>
       </div>
-      <TrendingSection />
+      <div className={styles.bodyWrapper}>
+        <TrendingSection />
+      </div>
     </div>
   );
 };

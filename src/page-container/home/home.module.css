@@ -1,6 +1,7 @@
 .landingWrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .landing {
@@ -11,6 +12,10 @@
 .news {
     flex-basis: 33.33%; 
     flex-grow: 1; 
+}
+
+.bodyWrapper{
+    background: #f6f8fa;
 }
 
 @media (max-width: 768px) {
